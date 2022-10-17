@@ -7,6 +7,7 @@ import "./assets/scss/style.scss";
 
 // pages for this product
 import Components from "./views/components/components.jsx";
+import FeatureComponent from "./views/components/featurecomponent.jsx";
 
 var hist = createBrowserHistory();
 
@@ -24,6 +25,8 @@ ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
     <Route path="/" component={Components} />
+    <Route path="/#aboutus" component={FeatureComponent} />
+
     </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
