@@ -9,7 +9,12 @@ import {
   NavLink,
   NavbarToggler,
   Collapse,
+  
 } from "reactstrap";
+
+import {useRef} from 'react';
+
+import { Link } from "react-router-dom";
 
 // import logo from "%PUBLIC_URL%/Favicon/Logo-01.png";
 import logo2 from "../../assets/images/Logo Files/machina.png";
@@ -17,7 +22,23 @@ import logo2 from "../../assets/images/Logo Files/machina.png";
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+
+  // const handleClick = () => {
+  //   about.current?.scrollIntoView({behavior: 'smooth'});
+  //   isOpen ? toggle : null;
+  // };
+
+ 
+
+
   const toggle = () => setIsOpen(!isOpen);
+
+function reply_click(id) {
+    
+    isOpen ? toggle : null;
+    window.location.href = '#aboutus'
+ }
+
   return (
     <div>
       <div className="topbar fixed-header   header1 po-relative">
@@ -31,17 +52,19 @@ const HeaderComponent = () => {
             </NavbarToggler>
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                <NavItem>
-                  <NavLink onClick={isOpen ? toggle : null} href="/#aboutus">
+                {/* <NavItem>
+                  <NavLink onClick={isOpen ? toggle : null} href="#aboutus"   >
                     À PROPOS
                   </NavLink>
+
+          
                 </NavItem>
 
                 <NavItem>
                   <NavLink onClick={isOpen ? toggle : null} href="/#service">
                     PROGRAMME
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
 
                 {/* <NavItem>
                   <NavLink href="/#team">Team</NavLink>

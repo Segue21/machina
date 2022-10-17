@@ -7,27 +7,32 @@ import "./assets/scss/style.scss";
 
 // pages for this product
 import Components from "./views/components/components.jsx";
-import FeatureComponent from "./views/components/featurecomponent.jsx";
 
+import FeatureComponent from "./views/components/featurecomponent.jsx";
+import Cards from "./views/components/cards.jsx";
 var hist = createBrowserHistory();
 
-// ReactDOM.render(
-//   <HashRouter history={hist}>
-//     <Switch>
-//       {/* <Route path="/custom-components" component={CustomComponents} /> */}
-//       <Route path="/" component={Components} />
-//     </Switch>
-//   </HashRouter>,
-//   document.getElementById("root")
-// );
+
+// target && document.querySelector(target).scrollIntoView();
 
 ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
-    <Route path="/" component={Components} />
-    <Route path="/#aboutus" component={FeatureComponent} />
+  <HashRouter history={hist}>
+  
+      <Route path="/" component={Components} />
 
-    </HashRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </HashRouter>,
+  document.getElementById("root")
+  
 );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <HashRouter>
+//     <Route path="/" component={Components} />
+//     <Route path="/about" component={FeatureComponent} />
+//     <Route path="/cards" component={Cards} />
+
+//     </HashRouter>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );

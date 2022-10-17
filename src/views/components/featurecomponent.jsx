@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 // import ReadMore from "react-readmore";
-
+import {useRef} from 'react';
 import img1 from "../../assets/images/Logo Files/spacer-bg.jpg";
 
 const FeatureComponent = () => {
