@@ -10,12 +10,21 @@ import Components from "./views/components/components.jsx";
 
 var hist = createBrowserHistory();
 
+// ReactDOM.render(
+//   <HashRouter history={hist}>
+//     <Switch>
+//       {/* <Route path="/custom-components" component={CustomComponents} /> */}
+//       <Route path="/" component={Components} />
+//     </Switch>
+//   </HashRouter>,
+//   document.getElementById("root")
+// );
+
 ReactDOM.render(
-  <HashRouter history={hist}>
-    <Switch>
-      {/* <Route path="/custom-components" component={CustomComponents} /> */}
-      <Route path="/" component={Components} />
-    </Switch>
-  </HashRouter>,
-  document.getElementById("root")
+  <React.StrictMode>
+    <HashRouter>
+    <Route path="/" component={Components} />
+    </HashRouter>
+  </React.StrictMode>,
+  document.getElementById('root')
 );

@@ -51,8 +51,9 @@ const HeaderComponent = () => {
                   <a
                     onClick={isOpen ? toggle : null}
                     className="btn"
+                    target="_blank"
                     id="contact-btn"
-                    href="/#contact"
+                    href="https://docs.google.com/forms/d/1JklcpJco6j9rm-SqUON9NWk8YdKnsFpB6RcuaFq4cUk/prefill"
                   >
                     INSCRIVEZ-VOUS{" "}
                   </a>

@@ -31,7 +31,7 @@ const HeaderBanner = () => {
                 <br/> 
                 
                 
-                <a href="https://www.linkedin.com/company/izlytech/"
+                <a href="https://docs.google.com/forms/d/1JklcpJco6j9rm-SqUON9NWk8YdKnsFpB6RcuaFq4cUk/prefill"
                 target="_blank"
                 className="link"> Inscrivez-vous </a> pour participer à l'événement
 
