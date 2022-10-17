@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/machina/static/css/main.9bbe4b8e.chunk.css",
+    "main.js": "/machina/static/js/main.834ea2bc.chunk.js",
+    "main.js.map": "/machina/static/js/main.834ea2bc.chunk.js.map",
+    "runtime-main.js": "/machina/static/js/runtime-main.e52d1f7a.js",
+    "runtime-main.js.map": "/machina/static/js/runtime-main.e52d1f7a.js.map",
+    "static/js/2.614e6ef1.chunk.js": "/machina/static/js/2.614e6ef1.chunk.js",
+    "static/js/2.614e6ef1.chunk.js.map": "/machina/static/js/2.614e6ef1.chunk.js.map",
+    "index.html": "/machina/index.html",
+    "precache-manifest.11d68a99f4ef98a8b16cbfc0ed47e08b.js": "/machina/precache-manifest.11d68a99f4ef98a8b16cbfc0ed47e08b.js",
+    "service-worker.js": "/machina/service-worker.js",
+    "static/css/main.9bbe4b8e.chunk.css.map": "/machina/static/css/main.9bbe4b8e.chunk.css.map",
+    "static/js/2.614e6ef1.chunk.js.LICENSE.txt": "/machina/static/js/2.614e6ef1.chunk.js.LICENSE.txt",
+    "static/media/Logo-01.png": "/machina/static/media/Logo-01.52d89935.png",
+    "static/media/style.scss": "/machina/static/media/warning.7a3f95ce.svg",
+    "static/media/camera.jpg": "/machina/static/media/camera.ffca4ace.jpg",
+    "static/media/cyber.jpg": "/machina/static/media/cyber.2972968c.jpg",
+    "static/media/devs.jpg": "/machina/static/media/devs.8af63b8e.jpg",
+    "static/media/europe.jpg": "/machina/static/media/europe.4d3ca84f.jpg",
+    "static/media/insa.png": "/machina/static/media/insa.cd584e98.png",
+    "static/media/ip.jpg": "/machina/static/media/ip.c0f0d0c1.jpg",
+    "static/media/liris.png": "/machina/static/media/liris.b3399b90.png",
+    "static/media/lyon.png": "/machina/static/media/lyon.7d40bcc4.png",
+    "static/media/machina-bg.jpg": "/machina/static/media/machina-bg.06e18302.jpg",
+    "static/media/machina.png": "/machina/static/media/machina.901d94c4.png",
+    "static/media/maint.jpg": "/machina/static/media/maint.2038c5a8.jpg",
+    "static/media/nets.jpg": "/machina/static/media/nets.42b35084.jpg",
+    "static/media/spacer-bg.jpg": "/machina/static/media/spacer-bg.a72a148c.jpg",
+    "static/media/video-bg.mp4": "/machina/static/media/video-bg.c8e3bc18.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e52d1f7a.js",
+    "static/js/2.614e6ef1.chunk.js",
+    "static/css/main.9bbe4b8e.chunk.css",
+    "static/js/main.834ea2bc.chunk.js"
+  ]
+}
