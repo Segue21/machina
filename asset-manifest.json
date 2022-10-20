@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/machina/static/css/main.00060c33.chunk.css",
-    "main.js": "/machina/static/js/main.5e8b38c7.chunk.js",
-    "main.js.map": "/machina/static/js/main.5e8b38c7.chunk.js.map",
+    "main.css": "/machina/static/css/main.9fade572.chunk.css",
+    "main.js": "/machina/static/js/main.08db5fb0.chunk.js",
+    "main.js.map": "/machina/static/js/main.08db5fb0.chunk.js.map",
     "runtime-main.js": "/machina/static/js/runtime-main.e52d1f7a.js",
     "runtime-main.js.map": "/machina/static/js/runtime-main.e52d1f7a.js.map",
-    "static/js/2.751e2282.chunk.js": "/machina/static/js/2.751e2282.chunk.js",
-    "static/js/2.751e2282.chunk.js.map": "/machina/static/js/2.751e2282.chunk.js.map",
+    "static/js/2.49885c8d.chunk.js": "/machina/static/js/2.49885c8d.chunk.js",
+    "static/js/2.49885c8d.chunk.js.map": "/machina/static/js/2.49885c8d.chunk.js.map",
     "index.html": "/machina/index.html",
-    "precache-manifest.a36340206c16ca28932d80b650e107e4.js": "/machina/precache-manifest.a36340206c16ca28932d80b650e107e4.js",
+    "precache-manifest.274a0c2f9b9048fa78b0d1466e183657.js": "/machina/precache-manifest.274a0c2f9b9048fa78b0d1466e183657.js",
     "service-worker.js": "/machina/service-worker.js",
-    "static/css/main.00060c33.chunk.css.map": "/machina/static/css/main.00060c33.chunk.css.map",
-    "static/js/2.751e2282.chunk.js.LICENSE.txt": "/machina/static/js/2.751e2282.chunk.js.LICENSE.txt",
+    "static/css/main.9fade572.chunk.css.map": "/machina/static/css/main.9fade572.chunk.css.map",
+    "static/js/2.49885c8d.chunk.js.LICENSE.txt": "/machina/static/js/2.49885c8d.chunk.js.LICENSE.txt",
     "static/media/Logo-01.png": "/machina/static/media/Logo-01.52d89935.png",
     "static/media/style.scss": "/machina/static/media/warning.7a3f95ce.svg",
     "static/media/camera.jpg": "/machina/static/media/camera.ffca4ace.jpg",
@@ -22,7 +22,7 @@
     "static/media/ip.jpg": "/machina/static/media/ip.c0f0d0c1.jpg",
     "static/media/liris.png": "/machina/static/media/liris.b3399b90.png",
     "static/media/lyon.png": "/machina/static/media/lyon.7d40bcc4.png",
-    "static/media/machina-bg.jpg": "/machina/static/media/machina-bg.06e18302.jpg",
+    "static/media/machina-bg-3.jpg": "/machina/static/media/machina-bg-3.19e75f72.jpg",
     "static/media/machina.png": "/machina/static/media/machina.901d94c4.png",
     "static/media/maint.jpg": "/machina/static/media/maint.2038c5a8.jpg",
     "static/media/nets.jpg": "/machina/static/media/nets.42b35084.jpg",
@@ -31,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e52d1f7a.js",
-    "static/js/2.751e2282.chunk.js",
-    "static/css/main.00060c33.chunk.css",
-    "static/js/main.5e8b38c7.chunk.js"
+    "static/js/2.49885c8d.chunk.js",
+    "static/css/main.9fade572.chunk.css",
+    "static/js/main.08db5fb0.chunk.js"
   ]
 }
